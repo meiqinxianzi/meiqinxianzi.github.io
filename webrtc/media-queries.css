@@ -1,0 +1,213 @@
+body{
+	background: url(images/2.1.jpg) no-repeat 0px 0px;
+	font-family: 'Open Sans', sans-serif;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	min-height:1050px;
+}
+@media screen and (max-width: 1920px) {
+	#getAppid-div{
+		width: 30%;
+		height: 40%;
+	}
+	
+	#roomId{
+		width: 65%;
+		height:12%;
+	}
+	
+	#pagewrap {
+		width: 83%;
+		
+	}
+	
+	#pagewrap1 {
+		width: 83%;
+	}
+	
+	/* sidebar */
+	#local {
+		width: 60%;
+	}
+	#local .widget {
+		padding: 8% 7%;
+		margin-bottom: 10px;
+	}
+
+	/* embedded videos */
+	.video embed,
+	.video object,
+	.video iframe {
+		width: 100%;
+		height: auto;
+		min-height: 300px;
+	}
+}
+
+/************************************************************************************
+smaller than 980
+*************************************************************************************/
+@media screen and (max-width: 980px) {
+	#getAppid-div{
+		width: 40%;
+		height: 45%;
+		
+	}
+	
+	#roomId{
+		width: 50%;
+		height:15%;
+	}
+
+	/* pagewrap */
+	#pagewrap {
+		width: 83%;
+	}
+	
+	#pagewrap1 {
+		width: 83%;
+	}
+
+	/* content */
+	#content {
+		width: 60%;
+		//padding: 3% 4%;
+	}
+	
+	/* sidebar */
+	#local {
+		width: 60%;
+	}
+	#local .widget {
+		padding: 8% 7%;
+		margin-bottom: 10px;
+	}
+
+	/* embedded videos */
+	.video embed,
+	.video object,
+	.video iframe {
+		width: 100%;
+		height: auto;
+		min-height: 300px;
+	}
+
+}
+
+/************************************************************************************
+smaller than 650
+*************************************************************************************/
+@media screen and (max-width: 650px) {
+	#getAppid-div{
+		width: 45%;
+		height: 40%;
+	}
+	
+	#roomId{
+		width: 65%;
+		height:15%;
+	}
+
+	/* header */
+	#header {
+		height: auto;
+	}
+
+	/* search form */
+	#searchform {
+		position: absolute;
+		top: 5px;
+		right: 0;
+		z-index: 100;
+		height: 40px;
+	}
+	#searchform #s {
+		width: 70px;
+	}
+	#searchform #s:focus {
+		width: 150px;
+	}
+
+	/* main nav */
+	#main-nav {
+		position: static;
+	}
+
+	/* site logo */
+	#site-logo {
+		margin: 15px 100px 5px 0;
+		position: static;
+	}
+
+	/* site description */
+	#site-description {
+		margin: 0 0 15px;
+		position: static;
+	}
+
+	/* content */
+	#content {
+		width: auto;
+		float: none;
+		margin: 20px 0;
+	}
+
+	/* sidebar */
+	#local {
+		width: 60%;
+		margin: 0;
+		float: none;
+	}
+	#local .widget {
+		padding: 8% 7%;
+		margin: 0 0 10px;
+	}
+
+	/* embedded videos */
+	.video embed,
+	.video object,
+	.video iframe {
+		min-height: 250px;
+	}
+
+}
+
+/************************************************************************************
+smaller than 560
+*************************************************************************************/
+@media screen and (max-width: 560px) {
+
+	/* disable webkit text size adjust (for iPhone) */
+	html {
+		-webkit-text-size-adjust: none;
+	}
+	
+	#getAppid-div{
+		width: 45%;
+		height: 40%;
+	}
+	
+	#roomId{
+		width: 65%;
+		height:15%;
+	}
+
+	/* main nav */
+	#main-nav a {
+		font-size: 90%;
+		padding: 10px 8px;
+	}
+	
+	#local {
+		width: 60%;
+		margin: 0;
+		float: none;
+	}
+	#local .widget {
+		padding: 8% 7%;
+		margin: 0 0 10px;
+	}
+
+}
